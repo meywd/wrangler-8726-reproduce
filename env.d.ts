@@ -3,6 +3,7 @@
 declare namespace Cloudflare {
 	interface Env {
 		ASSETS: Fetcher;
+        HUH: string
 	}
 }
 interface CloudflareEnv extends Cloudflare.Env {}
